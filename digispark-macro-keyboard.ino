@@ -197,6 +197,7 @@ void loop() {
   }
 
   // Adjust RGB color every so often
+  _hueCounter++;
   if (_hueCounter > 3) {
     updateHue();
     // Reset the counter
